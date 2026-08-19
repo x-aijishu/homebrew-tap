@@ -2,11 +2,11 @@ class Jishudb < Formula
   desc "JishuDB local bilingual knowledge database with hybrid retrieval and reranking"
   homepage "https://github.com/x-aijishu/jishudb"
   license "Apache-2.0"
-  version "0.4.2"
-  # Source revision: 793754c8b75c344ccbfe768e79f71f8805876630
+  version "0.6.2"
+  # Source revision: e550523cce7fcc32335e2307e2b2527068091284
 
-  url "https://github.com/x-aijishu/jishudb-releases/releases/download/v0.4.2/jishudb-0.4.2-darwin-arm64-runtime.tar.gz"
-  sha256 "8cacee24e4c1c50a19b697cfa79ce3a3d97adf4eec79d8abf6b740d256a087d6"
+  url "https://github.com/x-aijishu/jishudb-releases/releases/download/v0.6.2/jishudb-0.6.2-darwin-arm64-runtime.tar.gz"
+  sha256 "5c92b467560133fc93491c0606577feb582aef14996a6dc96cf4b29a9b600506"
 
   depends_on :macos
   depends_on arch: :arm64
@@ -30,7 +30,7 @@ class Jishudb < Formula
       "package.json", \
       python_runtime_archive, \
       "scripts", \
-      "vendor", \
+      "third_party", \
       "web"
     prefix.install "LICENSE", "NOTICE"
 
