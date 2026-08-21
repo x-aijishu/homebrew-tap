@@ -2,11 +2,11 @@ class Jishudb < Formula
   desc "JishuDB local bilingual knowledge database with hybrid retrieval and reranking"
   homepage "https://github.com/x-aijishu/jishudb"
   license "Apache-2.0"
-  version "0.6.2"
-  # Source revision: e550523cce7fcc32335e2307e2b2527068091284
+  version "0.6.3"
+  # Source revision: ad070bc6749c506123faf35ce435ac31abb3b0b1
 
-  url "https://github.com/x-aijishu/jishudb-releases/releases/download/v0.6.2/jishudb-0.6.2-darwin-arm64-runtime.tar.gz"
-  sha256 "5c92b467560133fc93491c0606577feb582aef14996a6dc96cf4b29a9b600506"
+  url "https://github.com/x-aijishu/jishudb-releases/releases/download/v0.6.3/jishudb-0.6.3-darwin-arm64-runtime.tar.gz"
+  sha256 "aae5ac5cc01f666e363a00bb67514cd169a230f7e0c8cfafbcae68a04e8ec919"
 
   depends_on :macos
   depends_on arch: :arm64
